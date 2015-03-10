@@ -1,33 +1,18 @@
 package model;
 
 import java.awt.Color;
-
+/**
+ * @author Maciej Zajac GizmoBall 27/02/2015
+ */
 public class Gizmo implements IGizmo {
 
-	private double xpos;
-	private double ypos;
-	private Color color;
-	private String id;
+	protected double xpos1;
+	protected double ypos1;
+	protected Color color;
+	protected String id;
+	protected String opcode;
 	
 
-	public void setColor(Color c) {
-		color = c;
-	}
-
-	public void setID(String s) {
-		id = s;
-	}
-
-	public void setX(double x) {
-		xpos = x;
-	}
-
-	public void setY(double y) {
-		ypos = y;
-	}
-	
-	
-	
 	public Color getColor() {
 		return color;
 	}
@@ -35,16 +20,41 @@ public class Gizmo implements IGizmo {
 	public String getID() {
 		return id;
 	}
+	
+	public String getOpCode() {
+		return opcode;
+	}
 
-	@Override
-	public double getX() {
+	public double getX1() {
 
-		return xpos;
+		return xpos1;
 	}
 
 	@Override
-	public double getY() {
-		return ypos;
+	public double getY1() {
+		return ypos1;
+	}
+	
+	
+	
+	public void setColor(Color c) {
+		color = c;
+	}
+
+	public void setID(String s) {
+		id = s;
+	}
+	
+	public void setOpCode(String s) {
+		opcode = s;
+	}
+
+	public void setX1(double x) {
+		xpos1 = x;
+	}
+
+	public void setY1(double y) {
+		ypos1 = y;
 	}
 	
 }	

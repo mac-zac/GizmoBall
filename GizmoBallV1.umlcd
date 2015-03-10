@@ -1,0 +1,2709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Kw3ecMJXEeS3rtSvS3PlAw">
+  <modelElement href="GizmoBallV1.uml#_KseGoMJXEeS3rtSvS3PlAw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OjfbgMJXEeS3rtSvS3PlAw" source="_OjkUAMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0rE0MJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OjgCkMJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0rr4MJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OjgCkcJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OjgCksJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0rE0cJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OjgCk8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OjgClMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OjgClcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="timer" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_LzLQAMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OjgClsJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OjgCl8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ojjs8MJXEeS3rtSvS3PlAw" sourceAnchor="290.0,65.0" targetAnchor="0.0,226.0" target="_Omvj0MJXEeS3rtSvS3PlAw" source="_OjkUAMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0sS8MJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_Ojjs8cJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0sS8sJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ojjs8sJXEeS3rtSvS3PlAw" text="">
+      <visualProperties xmi:id="_SapTQMJXEeS3rtSvS3PlAw" position="-19.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ojjs88JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0sS8cJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_SaoFIsJXEeS3rtSvS3PlAw" position="13.0,-43.0"/>
+      <visibility xmi:id="_Ojjs9MJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Ojjs9cJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ojjs9sJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="model" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_LzL3EcJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_SapTQcJXEeS3rtSvS3PlAw" position="-73.0,-43.0"/>
+      <visibility xmi:id="_Ojjs98JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_Ojjs-MJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OlPvAMJXEeS3rtSvS3PlAw" targetItem="_OlUnicJXEeS3rtSvS3PlAw" sourceItem="_OlPH8MJXEeS3rtSvS3PlAw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OlUngMJXEeS3rtSvS3PlAw" source="_OlUnicJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0thEcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OlUngcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0uIIMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OlUngsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OlUng8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0thEsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlUnhMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OlUnhcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OlUnhsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="velocity" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_LzYrYMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlUnh8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OlUniMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OldxccJXEeS3rtSvS3PlAw" targetItem="_Olip8MJXEeS3rtSvS3PlAw" sourceItem="_OldxcMJXEeS3rtSvS3PlAw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OliC4MJXEeS3rtSvS3PlAw" source="_Olip8MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0s6AMJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OliC4cJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0thEMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OliC4sJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OliC48JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0s6AcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OliC5MJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OliC5cJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OliC5sJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="ls" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_LzUZ8cJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OliC58JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OliC6MJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OlwsYMJXEeS3rtSvS3PlAw" source="_OlwsacJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0uvMcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OlwsYcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0vWQMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OlwsYsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OlwsY8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0uvMsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlwsZMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OlwsZcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OlwsZsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="at" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_LzfZEMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlwsZ8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OlwsaMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmBLEMJXEeS3rtSvS3PlAw" sourceAnchor="367.0,0.0" targetAnchor="154.0,154.0" target="_OmFcgMJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MXA84MJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmDnUsJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MXBj8MJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmDAQMJXEeS3rtSvS3PlAw" text="">
+      <visualProperties xmi:id="_SaqhYMJXEeS3rtSvS3PlAw" position="-41.0,-6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OmDnUMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MXA84cJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_Sap6UMJXEeS3rtSvS3PlAw" position="7.0,-34.0"/>
+      <visibility xmi:id="_OmEOYcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmEOYMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmDnUcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="gws" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWdjQMJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_SarIcMJXEeS3rtSvS3PlAw" position="-78.0,-8.0"/>
+      <stereotypes xmi:id="_OmE1csJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWeKUMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmiIcMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWeKUMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmE1ccJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmE1cMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmN_YMJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MW6PMMJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmcB0MJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MW62QMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmbawMJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmbawcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MW6PMcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmjWkcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmjWkMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmbawsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="endPoints" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWTyQMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Omj9ocJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Omj9oMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmN_YcJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MW62QcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmcB1MJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MW7dUMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmcB0cJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmcB0sJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MW62QsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmkksMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Omj9pMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmcB08JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="abs" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWVAYsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmkkssJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmkkscJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmOmcMJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MW7dUcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_Omco4cJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MW8EYMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmcB1cJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmcB1sJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MW7dUsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmkktsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmkktcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Omco4MJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="balls" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWW1kMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmlLwcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmlLwMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmOmccJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MW8rcMJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmdP8MJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MW9SgMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Omco4sJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_Omco48JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MW8rccJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Omly0cJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Omly0MJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Omco5MJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="circles" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWYDsMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Omly08JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_Omly0sJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmOmcsJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MW9SgcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmdP9MJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MW95kMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmdP8cJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmdP8sJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MW9SgsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmmZ4cJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmmZ4MJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmdP88JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="flippers" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWYqwsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmmZ48JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmmZ4sJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmPNgMJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MW95kcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_Omd3AMJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MW_HsMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmdP9cJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmdP9sJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MW95ksJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmnA88JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmnA8sJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmdP98JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="squares" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWZ44MJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmnA9cJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmnA9MJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmPNgcJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MW_HscJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_Omd3BMJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MW_uwMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Omd3AcJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_Omd3AsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MW_HssJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmnoA8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmnoAsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Omd3A8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="triangles" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWaf8cJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmnoBcJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmnoBMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmP0kMJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MW_uwcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmeeEcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MXAV0MJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Omd3BcJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_Omd3BsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MW_uwsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmoPEsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmoPEcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmeeEMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="idsS" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWbuEcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmoPFMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmoPE8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmP0kcJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MXBj8cJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmeeFcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MXCLAMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmeeEsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmeeE8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MXBj8sJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Omo2IcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Omo2IMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmeeFMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="idsT" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWupAMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Omo2I8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Omo2IsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmQboMJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MXCLAcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmfFIcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MXCyEMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmeeFsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmeeF8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MXCLAsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Omo2J8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Omo2JsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmfFIMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="idsC" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWvQEsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmpdMcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmpdMMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmQbocJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MXDZIMJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmfFJcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MXEAMMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmfFIsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmfFI8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MXDZIcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmpdNcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmpdNMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmfFJMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="idsLF" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWv3IsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmpdN8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmpdNsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmQbosJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MXEnQMJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmfsMsJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MXFOUMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmfFJsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmfsMMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MXEnQcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmqEQ8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmqEQsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmfsMcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="idsRF" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWweMsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmqERcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmqERMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmQbo8JXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MXF1YMJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmfsNsJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MXGccMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmfsM8JXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmfsNMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MXF1YcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmqrUcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmqrUMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmfsNcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="idsA" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWyTYMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmqrU8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmqrUsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OmRCsMJXEeS3rtSvS3PlAw" source="_Omvj0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_MXGcccJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OmgTQ8JXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_MXHqkMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmgTQMJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OmgTQcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_MXGccsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmqrV8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmqrVsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmgTQsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="idsB" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_MWy6csJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmrSYcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmrSYMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OoNjcMJXEeS3rtSvS3PlAw" targetItem="_OoOxkMJXEeS3rtSvS3PlAw" sourceItem="_OoM8YMJXEeS3rtSvS3PlAw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OoTDAMJXEeS3rtSvS3PlAw" source="_OoYikMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0wkYcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OoVfQcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0xLcMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OoU4MMJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OoU4McJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0wkYsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoWtYMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OoWGUMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OoVfQMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="cs" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_Lzn78MJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoWtYsJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OoWtYcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OoTDAcJXEeS3rtSvS3PlAw" source="_OoYikMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0xLccJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OoVfRcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0xygMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OoVfQsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OoVfQ8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0xLcsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoWtZsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OoWtZcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OoVfRMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="ls" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_LzpKEcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoXUccJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OoXUcMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OoepMcJXEeS3rtSvS3PlAw" targetItem="_OordgMJXEeS3rtSvS3PlAw" sourceItem="_OoepMMJXEeS3rtSvS3PlAw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_OofQQMJXEeS3rtSvS3PlAw" sourceAnchor="284.0,0.0" targetAnchor="60.0,124.0" dashed="true" superClass="_OordgMJXEeS3rtSvS3PlAw" subClass="_Olip8MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LxrbMMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7Zbk88JXEeS3rtSvS3PlAw" sourceY="-403" targetX="774" targetY="22"/>
+    <bendpoints xmi:id="_7Zbk9MJXEeS3rtSvS3PlAw" sourceX="-774" sourceY="-403" targetY="22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_OofQQcJXEeS3rtSvS3PlAw" sourceAnchor="213.0,0.0" targetAnchor="60.0,124.0" dashed="true" superClass="_OordgMJXEeS3rtSvS3PlAw" subClass="_OlUnicJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LxwTsMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7Za94MJXEeS3rtSvS3PlAw" sourceY="-396" targetX="283" targetY="22"/>
+    <bendpoints xmi:id="_7Za94cJXEeS3rtSvS3PlAw" sourceX="-283" sourceY="-396" targetY="22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oof3UMJXEeS3rtSvS3PlAw" sourceAnchor="325.0,21.0" targetAnchor="60.0,124.0" dashed="true" superClass="_OordgMJXEeS3rtSvS3PlAw" subClass="_OoOxkMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_Lx0lIMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7ZaW1MJXEeS3rtSvS3PlAw" sourceX="790" targetX="1013" targetY="626"/>
+    <bendpoints xmi:id="_7ZaW1cJXEeS3rtSvS3PlAw" sourceX="790" sourceY="-604" targetX="1013" targetY="22"/>
+    <bendpoints xmi:id="_7ZaW1sJXEeS3rtSvS3PlAw" sourceX="-223" sourceY="-604" targetY="22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oof3UcJXEeS3rtSvS3PlAw" sourceAnchor="208.0,0.0" targetAnchor="60.0,124.0" dashed="true" superClass="_OordgMJXEeS3rtSvS3PlAw" subClass="_OlwsacJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_Lx42kcJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7ZaW0MJXEeS3rtSvS3PlAw" sourceY="-407" targetX="-323" targetY="22"/>
+    <bendpoints xmi:id="_7ZaW0cJXEeS3rtSvS3PlAw" sourceX="323" sourceY="-407" targetY="22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oof3UsJXEeS3rtSvS3PlAw" sourceAnchor="0.0,87.0" targetAnchor="60.0,124.0" dashed="true" superClass="_OordgMJXEeS3rtSvS3PlAw" subClass="_OoYikMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LyDOoMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7ZcMAsJXEeS3rtSvS3PlAw" sourceX="-75" targetX="-1033" targetY="519"/>
+    <bendpoints xmi:id="_7ZcMA8JXEeS3rtSvS3PlAw" sourceX="-75" sourceY="-497" targetX="-1033" targetY="22"/>
+    <bendpoints xmi:id="_7ZcMBMJXEeS3rtSvS3PlAw" sourceX="958" sourceY="-497" targetY="22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_OogeYMJXEeS3rtSvS3PlAw" sourceAnchor="0.0,136.0" targetAnchor="60.0,124.0" dashed="true" superClass="_OordgMJXEeS3rtSvS3PlAw" subClass="_OpHiYMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LyIHIcJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7Za95sJXEeS3rtSvS3PlAw" sourceX="-133" targetX="-1003" targetY="847"/>
+    <bendpoints xmi:id="_7Za958JXEeS3rtSvS3PlAw" sourceX="-133" sourceY="-825" targetX="-1003" targetY="22"/>
+    <bendpoints xmi:id="_7Za96MJXEeS3rtSvS3PlAw" sourceX="870" sourceY="-825" targetY="22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OokIwcJXEeS3rtSvS3PlAw" targetItem="_OpHiYMJXEeS3rtSvS3PlAw" sourceItem="_OokIwMJXEeS3rtSvS3PlAw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OokIwsJXEeS3rtSvS3PlAw" source="_OpHiYMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0yZkMJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OomlAcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0zAoMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ool98MJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_Ool98cJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0yZkcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OonzIcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OonzIMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OomlAMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="cs" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_Lzs0cMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OonzI8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OonzIsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ookv0MJXEeS3rtSvS3PlAw" source="_OpHiYMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0zAocJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OomlBcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0znsMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OomlAsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OomlA8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0zAosJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OooaM8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OooaMsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OomlBMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="ls" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_LzuCkMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OopBQcJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OopBQMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ooq2cMJXEeS3rtSvS3PlAw" target="_OordgMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0gswMJXEeS3rtSvS3PlAw"/>
+    <nameVisual xmi:id="_Ooq2ccJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_Ooq2csJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="color" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_LvN9EMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Ooq2c8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Ooq2dMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ooq2dcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0gswcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Ooq2dsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Ooq2d8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Oow9EMJXEeS3rtSvS3PlAw" targetItem="_OoyyQsJXEeS3rtSvS3PlAw" sourceItem="_OowWAMJXEeS3rtSvS3PlAw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Oow9EcJXEeS3rtSvS3PlAw" source="_OoyyQsJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0uIIcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OoyLMcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0uvMMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OoxkIMJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OoxkIcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0uIIsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoyLM8JXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OoyLMsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OoyLMMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="velo" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_LzcVwcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoyyQcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OoyyQMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oo11kMJXEeS3rtSvS3PlAw" sourceAnchor="102.0,0.0" targetAnchor="60.0,124.0" dashed="true" superClass="_OordgMJXEeS3rtSvS3PlAw" subClass="_Oo-YcMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_Lx9IAMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7Za95MJXEeS3rtSvS3PlAw" sourceY="-21" targetX="30" targetY="22"/>
+    <bendpoints xmi:id="_7Za95cJXEeS3rtSvS3PlAw" sourceX="-30" sourceY="-21" targetY="22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oo11kcJXEeS3rtSvS3PlAw" sourceAnchor="254.0,0.0" targetAnchor="90.0,325.0" superClass="_Oo-YcMJXEeS3rtSvS3PlAw" subClass="_Olip8MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LxtQYMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7ZcMAMJXEeS3rtSvS3PlAw" sourceY="-32" targetX="726" targetY="25"/>
+    <bendpoints xmi:id="_7ZcMAcJXEeS3rtSvS3PlAw" sourceX="-726" sourceY="-32" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oo2coMJXEeS3rtSvS3PlAw" sourceAnchor="183.0,0.0" targetAnchor="90.0,325.0" superClass="_Oo-YcMJXEeS3rtSvS3PlAw" subClass="_OlUnicJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_Lxxh0MJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7Za94sJXEeS3rtSvS3PlAw" sourceY="-25" targetX="235" targetY="25"/>
+    <bendpoints xmi:id="_7Za948JXEeS3rtSvS3PlAw" sourceX="-235" sourceY="-25" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oo2cocJXEeS3rtSvS3PlAw" sourceAnchor="157.0,0.0" targetAnchor="90.0,325.0" superClass="_Oo-YcMJXEeS3rtSvS3PlAw" subClass="_OoOxkMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_Lx1MMMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7ZaW18JXEeS3rtSvS3PlAw" sourceY="-212" targetX="37" targetY="25"/>
+    <bendpoints xmi:id="_7ZaW2MJXEeS3rtSvS3PlAw" sourceX="-37" sourceY="-212" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oo2cosJXEeS3rtSvS3PlAw" sourceAnchor="238.0,0.0" targetAnchor="90.0,325.0" superClass="_Oo-YcMJXEeS3rtSvS3PlAw" subClass="_OlwsacJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_Lx6EsMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7ZaW0sJXEeS3rtSvS3PlAw" sourceY="-36" targetX="-311" targetY="25"/>
+    <bendpoints xmi:id="_7ZaW08JXEeS3rtSvS3PlAw" sourceX="311" sourceY="-36" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oo3DsMJXEeS3rtSvS3PlAw" sourceAnchor="200.0,0.0" targetAnchor="90.0,325.0" superClass="_Oo-YcMJXEeS3rtSvS3PlAw" subClass="_OoYikMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LyD1sMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7ZcMBcJXEeS3rtSvS3PlAw" sourceY="-39" targetX="-776" targetY="25"/>
+    <bendpoints xmi:id="_7ZcMBsJXEeS3rtSvS3PlAw" sourceX="776" sourceY="-39" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Oo3DscJXEeS3rtSvS3PlAw" sourceAnchor="0.0,106.0" targetAnchor="90.0,325.0" superClass="_Oo-YcMJXEeS3rtSvS3PlAw" subClass="_OpHiYMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LyJVQMJXEeS3rtSvS3PlAw"/>
+    <bendpoints xmi:id="_7Zbk8MJXEeS3rtSvS3PlAw" sourceX="-103" targetX="-991" targetY="449"/>
+    <bendpoints xmi:id="_7Zbk8cJXEeS3rtSvS3PlAw" sourceX="-103" sourceY="-424" targetX="-991" targetY="25"/>
+    <bendpoints xmi:id="_7Zbk8sJXEeS3rtSvS3PlAw" sourceX="888" sourceY="-424" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Oo3qwMJXEeS3rtSvS3PlAw" source="_Oo-YcMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0vWQcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_Oo8jQMJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_L0wkYMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Oo78MMJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_Oo78McJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_L0vWQsJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo9KUcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Oo9KUMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Oo78MsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="color" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_Lzk4oMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo9KU8JXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_Oo9KUsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OpQFQMJXEeS3rtSvS3PlAw" sourceAnchor="0.0,70.0" targetAnchor="706.0,476.0" target="_Omvj0MJXEeS3rtSvS3PlAw" source="_OpVk0MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_M_U6EMJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OpR6cMJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_M_VhIMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OpRTYMJXEeS3rtSvS3PlAw" text="">
+      <visualProperties xmi:id="_Sas9oMJXEeS3rtSvS3PlAw" position="-19.0,-17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OpRTYcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_M_U6EcJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_SarvgMJXEeS3rtSvS3PlAw" position="-16.0,-82.0"/>
+      <visibility xmi:id="_OpTvocJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OpTvoMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OpRTYsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="gm" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_M_QBksJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_Sas9ocJXEeS3rtSvS3PlAw" position="-7.0,7.0"/>
+      <visibility xmi:id="_OpTvo8JXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_OpTvosJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OpbrcMJXEeS3rtSvS3PlAw" sourceAnchor="0.0,58.0" targetAnchor="706.0,273.0" target="_Omvj0MJXEeS3rtSvS3PlAw" source="_OpjAOcJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_M_VhIcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OpeHs8JXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_M_VhI8JXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OpeHsMJXEeS3rtSvS3PlAw" text="">
+      <visualProperties xmi:id="_Sauy0MJXEeS3rtSvS3PlAw" position="-20.0,-17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OpeHscJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_M_VhIsJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_SatksMJXEeS3rtSvS3PlAw" position="-24.0,2.0"/>
+      <visibility xmi:id="_Opf84MJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OpfV0MJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OpeHssJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="model" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_M_QooMJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_Sauy0cJXEeS3rtSvS3PlAw" position="1.0,-82.0"/>
+      <visibility xmi:id="_Opf84sJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_Opf84cJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OpdgoMJXEeS3rtSvS3PlAw" sourceAnchor="131.0,116.0" targetAnchor="152.0,0.0" target="_OpVk0MJXEeS3rtSvS3PlAw" source="_OpjAOcJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_M_WvQcJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OpeuwcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_M_XWUMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OpeHtMJXEeS3rtSvS3PlAw" text="">
+      <visualProperties xmi:id="_SawA8MJXEeS3rtSvS3PlAw" position="-41.0,-27.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OpeHtcJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_M_WvQsJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_SavZ4MJXEeS3rtSvS3PlAw" position="2.0,11.0"/>
+      <visibility xmi:id="_Opf85cJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Opf85MJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OpeuwMJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="board" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_M_RPtMJXEeS3rtSvS3PlAw"/>
+      <visualProperties xmi:id="_SawA8cJXEeS3rtSvS3PlAw" position="-87.0,-42.0"/>
+      <visibility xmi:id="_Opf858JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_Opf85sJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OphyEMJXEeS3rtSvS3PlAw" source="_OpjAOcJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_M_WIMMJXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OphyEcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_M_WIMsJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OphyEsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OphyE8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_M_WIMcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OphyFMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OphyFcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OphyFsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_M_RPsMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OphyF8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OphyGMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OpjAMMJXEeS3rtSvS3PlAw" source="_OpjAOcJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_M_WIM8JXEeS3rtSvS3PlAw"/>
+    <stereotypes xmi:id="_OpjAMcJXEeS3rtSvS3PlAw" name="Reference">
+      <modelElement href="GizmoBallV1.uml#_M_WvQMJXEeS3rtSvS3PlAw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OpjAMsJXEeS3rtSvS3PlAw" text=""/>
+    <sourceRole xmi:id="_OpjAM8JXEeS3rtSvS3PlAw" aggregationKind="NONE" name="">
+      <modelElement href="GizmoBallV1.uml#_M_WINMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OpjANMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OpjANcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OpjANsJXEeS3rtSvS3PlAw" aggregationKind="NONE" name="listener" navigable="true">
+      <modelElement href="GizmoBallV1.uml#_M_RPssJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OpjAN8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpjAOMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_P13iAMJaEeS3rtSvS3PlAw" dashed="true" subClass="_OjkUAMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LyU7cMJXEeS3rtSvS3PlAw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OlPH8MJXEeS3rtSvS3PlAw" sourceConnectionVisual="_OlPvAMJXEeS3rtSvS3PlAw" text="@author Maciej Zajac GizmoBall 27/02/2015" item="_OlUnicJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0e3kMJXEeS3rtSvS3PlAw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OldxcMJXEeS3rtSvS3PlAw" sourceConnectionVisual="_OldxccJXEeS3rtSvS3PlAw" text="@author Maciej Zajac GizmoBall 03/03/2015" item="_Olip8MJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0eQgMJXEeS3rtSvS3PlAw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OoM8YMJXEeS3rtSvS3PlAw" sourceConnectionVisual="_OoNjcMJXEeS3rtSvS3PlAw" text="@author Maciej Zajac GizmoBall 27/02/2015" item="_OoOxkMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0e3kcJXEeS3rtSvS3PlAw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OoepMMJXEeS3rtSvS3PlAw" sourceConnectionVisual="_OoepMcJXEeS3rtSvS3PlAw" text="@author Maciej Zajac GizmoBall 27/02/2015" item="_OordgMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0feoMJXEeS3rtSvS3PlAw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OokIwMJXEeS3rtSvS3PlAw" sourceConnectionVisual="_OokIwcJXEeS3rtSvS3PlAw" text="@author Maciej Zajac GizmoBall 27/02/2015" item="_OpHiYMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0hT0MJXEeS3rtSvS3PlAw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OowWAMJXEeS3rtSvS3PlAw" sourceConnectionVisual="_Oow9EMJXEeS3rtSvS3PlAw" text="@author Murray Wood Demonstration of MVC and MIT Physics Collisions 2014" item="_OoyyQsJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_L0e3ksJXEeS3rtSvS3PlAw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Omvj0MJXEeS3rtSvS3PlAw" name="Model" associationsIn="_Ojjs8MJXEeS3rtSvS3PlAw _OpQFQMJXEeS3rtSvS3PlAw _OpbrcMJXEeS3rtSvS3PlAw" associationsOut="_OmBLEMJXEeS3rtSvS3PlAw _OmN_YMJXEeS3rtSvS3PlAw _OmN_YcJXEeS3rtSvS3PlAw _OmOmcMJXEeS3rtSvS3PlAw _OmOmccJXEeS3rtSvS3PlAw _OmOmcsJXEeS3rtSvS3PlAw _OmPNgMJXEeS3rtSvS3PlAw _OmPNgcJXEeS3rtSvS3PlAw _OmP0kMJXEeS3rtSvS3PlAw _OmP0kcJXEeS3rtSvS3PlAw _OmQboMJXEeS3rtSvS3PlAw _OmQbocJXEeS3rtSvS3PlAw _OmQbosJXEeS3rtSvS3PlAw _OmQbo8JXEeS3rtSvS3PlAw _OmRCsMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LxZuYcJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_Omvj0cJXEeS3rtSvS3PlAw" position="178.0,150.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Omvj0sJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_Omvj08JXEeS3rtSvS3PlAw" name="endPoints">
+      <modelElement href="GizmoBallV1.uml#_MWTyQMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Omvj1MJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWVAYMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omvj1cJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWVAYcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omj9osJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWVAYMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omj9o8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWVAYcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Omvj1sJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Omvj18JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_Omvj2MJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Omvj2cJXEeS3rtSvS3PlAw" name="abs">
+      <modelElement href="GizmoBallV1.uml#_MWVAYsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Omvj2sJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWWOgMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omvj28JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWWOgcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omkks8JXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWWOgMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmkktMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWWOgcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Omvj3MJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_Omvj3cJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_Omvj3sJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Omvj38JXEeS3rtSvS3PlAw" name="balls">
+      <modelElement href="GizmoBallV1.uml#_MWW1kMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Omvj4MJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWXcoMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omvj4cJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWXcocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmlLwsJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWXcoMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmlLw8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWXcocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwK4MJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwK4cJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwK4sJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwK48JXEeS3rtSvS3PlAw" name="circles">
+      <modelElement href="GizmoBallV1.uml#_MWYDsMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwK5MJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWYqwMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwK5cJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWYqwcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omly1MJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWYqwMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omly1cJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWYqwcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwK5sJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmwK58JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwK6MJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwK6cJXEeS3rtSvS3PlAw" name="flippers">
+      <modelElement href="GizmoBallV1.uml#_MWYqwsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwK6sJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWZR0MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwK68JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWZR0cJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmnA8MJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWZR0MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmnA8cJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWZR0cJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwK7MJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwK7cJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwK7sJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwK78JXEeS3rtSvS3PlAw" name="squares">
+      <modelElement href="GizmoBallV1.uml#_MWZ44MJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwK8MJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWZ44cJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwK8cJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWaf8MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmnoAMJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWZ44cJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmnoAcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWaf8MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwK8sJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmwK88JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwK9MJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwK9cJXEeS3rtSvS3PlAw" name="triangles">
+      <modelElement href="GizmoBallV1.uml#_MWaf8cJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwK9sJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWaf8sJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwK98JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWbHAMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmnoBsJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWaf8sJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmoPEMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWbHAMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwK-MJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmwK-cJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwK-sJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwK-8JXEeS3rtSvS3PlAw" defaultValue="false" name="rotateTri">
+      <modelElement href="GizmoBallV1.uml#_MWbHAcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwK_MJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWbuEMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwK_cJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwK_sJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwK_8JXEeS3rtSvS3PlAw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLAMJXEeS3rtSvS3PlAw" name="idsS">
+      <modelElement href="GizmoBallV1.uml#_MWbuEcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLAcJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWcVIMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLAsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWc8MMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLA8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWc8McJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmoPFcJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MWcVIMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmoPFsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWc8MMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmoPF8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWc8McJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLBMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwLBcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLBsJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLB8JXEeS3rtSvS3PlAw" name="gws">
+      <modelElement href="GizmoBallV1.uml#_MWdjQMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLCMJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmwLCcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLCsJXEeS3rtSvS3PlAw" name="Walls">
+        <modelElement href="GizmoBallV1.uml#_LvtsUMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLC8JXEeS3rtSvS3PlAw" defaultValue="true" name="assOn">
+      <modelElement href="GizmoBallV1.uml#_MWeKUcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLDMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWfYcMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLDcJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmwLDsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLD8JXEeS3rtSvS3PlAw" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLEMJXEeS3rtSvS3PlAw" name="gravY">
+      <modelElement href="GizmoBallV1.uml#_MWfYccJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLEcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWf_gMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLEsJXEeS3rtSvS3PlAw" label="~"/>
+      <cardinality xmi:id="_OmwLE8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLFMJXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLFcJXEeS3rtSvS3PlAw" name="Vnew">
+      <modelElement href="GizmoBallV1.uml#_MWf_gcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLFsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWf_gsJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLF8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWgmkMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLGMJXEeS3rtSvS3PlAw" label="~"/>
+      <cardinality xmi:id="_OmwLGcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLGsJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLG8JXEeS3rtSvS3PlAw" name="grav">
+      <modelElement href="GizmoBallV1.uml#_MWhNoMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLHMJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWhNocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLHcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWhNosJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLHsJXEeS3rtSvS3PlAw" label="~"/>
+      <cardinality xmi:id="_OmwLH8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLIMJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLIcJXEeS3rtSvS3PlAw" name="idsT">
+      <modelElement href="GizmoBallV1.uml#_MWupAMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLIsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWvQEMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLI8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWvQEcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omo2JMJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWvQEMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Omo2JcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWvQEcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLJMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwLJcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLJsJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLJ8JXEeS3rtSvS3PlAw" name="idsC">
+      <modelElement href="GizmoBallV1.uml#_MWvQEsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLKMJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWv3IMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLKcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWv3IcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmpdMsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWv3IMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmpdM8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWv3IcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLKsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwLK8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLLMJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLLcJXEeS3rtSvS3PlAw" name="idsLF">
+      <modelElement href="GizmoBallV1.uml#_MWv3IsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLLsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWweMMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLL8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWweMcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmqEQMJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWweMMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmqEQcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWweMcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLMMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwLMcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLMsJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLM8JXEeS3rtSvS3PlAw" name="idsRF">
+      <modelElement href="GizmoBallV1.uml#_MWweMsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLNMJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWxFQMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLNcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWxFQcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmqERsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWxFQMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmqER8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWxFQcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLNsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwLN8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLOMJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLOcJXEeS3rtSvS3PlAw" name="idsA">
+      <modelElement href="GizmoBallV1.uml#_MWyTYMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLOsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWy6cMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLO8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWy6ccJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmqrVMJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWy6cMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmqrVcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWy6ccJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLPMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwLPcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLPsJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLP8JXEeS3rtSvS3PlAw" name="idsB">
+      <modelElement href="GizmoBallV1.uml#_MWy6csJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLQMJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWzhgMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLQcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWzhgcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmrSYsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MWzhgMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmrSY8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MWzhgcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLQsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OmwLQ8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLRMJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLRcJXEeS3rtSvS3PlAw" name="mu">
+      <modelElement href="GizmoBallV1.uml#_MW0IkMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLRsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MW0voMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLR8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MW0vocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLSMJXEeS3rtSvS3PlAw" label="~"/>
+      <cardinality xmi:id="_OmwLScJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLSsJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLS8JXEeS3rtSvS3PlAw" name="mu2">
+      <modelElement href="GizmoBallV1.uml#_MW0vosJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLTMJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MW1WsMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLTcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MW1WscJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLTsJXEeS3rtSvS3PlAw" label="~"/>
+      <cardinality xmi:id="_OmwLT8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLUMJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLUcJXEeS3rtSvS3PlAw" name="deltat">
+      <modelElement href="GizmoBallV1.uml#_MW1WssJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLUsJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MW1Ws8JXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLU8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MW1WtMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLVMJXEeS3rtSvS3PlAw" label="~"/>
+      <cardinality xmi:id="_OmwLVcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLVsJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmwLV8JXEeS3rtSvS3PlAw" name="grav_time">
+      <modelElement href="GizmoBallV1.uml#_MW19wMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLWMJXEeS3rtSvS3PlAw" name="MultiDeclaration">
+        <modelElement href="GizmoBallV1.uml#_MW19wcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmwLWcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_MW2k0MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLWsJXEeS3rtSvS3PlAw" label="~"/>
+      <cardinality xmi:id="_OmwLW8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmwLXMJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OmwLXcJXEeS3rtSvS3PlAw" name="Model">
+      <modelElement href="GizmoBallV1.uml#_MVUTwMJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OmwLXsJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OmwLX8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLYMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVU60MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLYcJXEeS3rtSvS3PlAw" name="Model">
+          <modelElement href="GizmoBallV1.uml#_LxZuYcJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLYsJXEeS3rtSvS3PlAw" name="flipUp">
+      <modelElement href="GizmoBallV1.uml#_MVVh4sJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLY8JXEeS3rtSvS3PlAw" label="+"/>
+    </operations>
+    <operations xmi:id="_OmwLZMJXEeS3rtSvS3PlAw" name="flipDown">
+      <modelElement href="GizmoBallV1.uml#_MVVh48JXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLZcJXEeS3rtSvS3PlAw" label="+"/>
+    </operations>
+    <operations xmi:id="_OmwLZsJXEeS3rtSvS3PlAw" name="moveFlipper">
+      <modelElement href="GizmoBallV1.uml#_MVWI8MJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLZ8JXEeS3rtSvS3PlAw" label="+"/>
+    </operations>
+    <operations xmi:id="_OmwLaMJXEeS3rtSvS3PlAw" name="moveBall">
+      <modelElement href="GizmoBallV1.uml#_MVWI8cJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLacJXEeS3rtSvS3PlAw" label="+"/>
+    </operations>
+    <operations xmi:id="_OmwLasJXEeS3rtSvS3PlAw" name="timeUntilCollision">
+      <modelElement href="GizmoBallV1.uml#_MVWwAMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLa8JXEeS3rtSvS3PlAw" label="-"/>
+      <outParameters xmi:id="_OmwLbMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVWwAcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLbcJXEeS3rtSvS3PlAw" name="CollisionDetails">
+          <modelElement href="GizmoBallV1.uml#_LudvIMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLbsJXEeS3rtSvS3PlAw" name="getFlipper">
+      <modelElement href="GizmoBallV1.uml#_MVWwAsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLb8JXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MVX-IMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLcMJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLccJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVWwA8JXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLcsJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLc8JXEeS3rtSvS3PlAw" name="addFlipper">
+      <modelElement href="GizmoBallV1.uml#_MVX-IcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLdMJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OmwLdcJXEeS3rtSvS3PlAw" name="flip">
+        <modelElement href="GizmoBallV1.uml#_MVX-IsJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLdsJXEeS3rtSvS3PlAw" name="Flipper">
+          <modelElement href="GizmoBallV1.uml#_LuhZgMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwLd8JXEeS3rtSvS3PlAw" name="getCircle">
+      <modelElement href="GizmoBallV1.uml#_MVYlMMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLeMJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MVZMQMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLecJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLesJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVYlMcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLe8JXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLfMJXEeS3rtSvS3PlAw" name="addCircle">
+      <modelElement href="GizmoBallV1.uml#_MVZMQcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLfcJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OmwLfsJXEeS3rtSvS3PlAw" name="cir">
+        <modelElement href="GizmoBallV1.uml#_MVZMQsJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLf8JXEeS3rtSvS3PlAw" name="CircleGizmo">
+          <modelElement href="GizmoBallV1.uml#_LuYPkMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwLgMJXEeS3rtSvS3PlAw" name="getTriangle">
+      <modelElement href="GizmoBallV1.uml#_MVZMQ8JXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLgcJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MVZzUcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLgsJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLg8JXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVZzUMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLhMJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLhcJXEeS3rtSvS3PlAw" name="addTriangle">
+      <modelElement href="GizmoBallV1.uml#_MVaaYMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLhsJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OmwLh8JXEeS3rtSvS3PlAw" name="tr">
+        <modelElement href="GizmoBallV1.uml#_MVaaYcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLiMJXEeS3rtSvS3PlAw" name="TriangleGizmo">
+          <modelElement href="GizmoBallV1.uml#_LvgQ8MJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwLicJXEeS3rtSvS3PlAw" name="getParser">
+      <modelElement href="GizmoBallV1.uml#_MVaaYsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLisJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MVbogMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLi8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLjMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVaaY8JXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLjcJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLjsJXEeS3rtSvS3PlAw" name="getSquare">
+      <modelElement href="GizmoBallV1.uml#_MVbogcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLj8JXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MVcPkMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLkMJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLkcJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVbogsJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLksJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLk8JXEeS3rtSvS3PlAw" name="addSquare">
+      <modelElement href="GizmoBallV1.uml#_MVc2oMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLlMJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OmwLlcJXEeS3rtSvS3PlAw" name="sq">
+        <modelElement href="GizmoBallV1.uml#_MVc2ocJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLlsJXEeS3rtSvS3PlAw" name="SquareGizmo">
+          <modelElement href="GizmoBallV1.uml#_LvS1kMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwLl8JXEeS3rtSvS3PlAw" name="getAbs">
+      <modelElement href="GizmoBallV1.uml#_MVddsMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLmMJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MVeEwMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLmcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLmsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVddscJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLm8JXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLnMJXEeS3rtSvS3PlAw" name="addAbs">
+      <modelElement href="GizmoBallV1.uml#_MVeEwcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLncJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OmwLnsJXEeS3rtSvS3PlAw" name="absorber">
+        <modelElement href="GizmoBallV1.uml#_MVeEwsJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLn8JXEeS3rtSvS3PlAw" name="AbsorberGizmo">
+          <modelElement href="GizmoBallV1.uml#_LtjJIMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwLoMJXEeS3rtSvS3PlAw" name="getBall">
+      <modelElement href="GizmoBallV1.uml#_MVer0MJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLocJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MVfS4MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLosJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLo8JXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVer0cJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLpMJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLpcJXEeS3rtSvS3PlAw" name="addBall">
+      <modelElement href="GizmoBallV1.uml#_MVfS4cJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLpsJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OmwLp8JXEeS3rtSvS3PlAw" name="ball">
+        <modelElement href="GizmoBallV1.uml#_MVf58MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLqMJXEeS3rtSvS3PlAw" name="Ball">
+          <modelElement href="GizmoBallV1.uml#_LuDfcMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwLqcJXEeS3rtSvS3PlAw" name="gravity">
+      <modelElement href="GizmoBallV1.uml#_MVhvIMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLqsJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLq8JXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MV3tYMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLrMJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmwLrcJXEeS3rtSvS3PlAw" name="movelBallForTime">
+      <modelElement href="GizmoBallV1.uml#_MVwYoMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmwLrsJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_MVw_scJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmwLr8JXEeS3rtSvS3PlAw" label="-"/>
+      <outParameters xmi:id="_OmwLsMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MVw_sMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLscJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OmwLssJXEeS3rtSvS3PlAw" name="ball">
+        <modelElement href="GizmoBallV1.uml#_MVwYocJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLs8JXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmwLtMJXEeS3rtSvS3PlAw" name="time">
+        <modelElement href="GizmoBallV1.uml#_MVwYosJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLtcJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwLtsJXEeS3rtSvS3PlAw" name="addGizmo">
+      <modelElement href="GizmoBallV1.uml#_MVy04MJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLt8JXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OmwLuMJXEeS3rtSvS3PlAw" name="opcode">
+        <modelElement href="GizmoBallV1.uml#_MVy04cJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLucJXEeS3rtSvS3PlAw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmwLusJXEeS3rtSvS3PlAw" name="id">
+        <modelElement href="GizmoBallV1.uml#_MVy04sJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLu8JXEeS3rtSvS3PlAw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmwLvMJXEeS3rtSvS3PlAw" name="argument1">
+        <modelElement href="GizmoBallV1.uml#_MVzb8MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLvcJXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmwLvsJXEeS3rtSvS3PlAw" name="argument2">
+        <modelElement href="GizmoBallV1.uml#_MVzb8cJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLv8JXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmwLwMJXEeS3rtSvS3PlAw" name="argument3">
+        <modelElement href="GizmoBallV1.uml#_MVzb8sJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLwcJXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmwLwsJXEeS3rtSvS3PlAw" name="argument4">
+        <modelElement href="GizmoBallV1.uml#_MVzb88JXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLw8JXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmwLxMJXEeS3rtSvS3PlAw" name="argument5">
+        <modelElement href="GizmoBallV1.uml#_MV0DAMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLxcJXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwLxsJXEeS3rtSvS3PlAw" name="setBallSpeed">
+      <modelElement href="GizmoBallV1.uml#_MV1RIMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLx8JXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OmwLyMJXEeS3rtSvS3PlAw" name="x">
+        <modelElement href="GizmoBallV1.uml#_MV1RIcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLycJXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmwLysJXEeS3rtSvS3PlAw" name="y">
+        <modelElement href="GizmoBallV1.uml#_MV14MMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLy8JXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwLzMJXEeS3rtSvS3PlAw" name="friction">
+      <modelElement href="GizmoBallV1.uml#_MV2fQMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwLzcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmwLzsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_MV3GUMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwLz8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OmwL0MJXEeS3rtSvS3PlAw" name="Vold">
+        <modelElement href="GizmoBallV1.uml#_MV2fQcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwL0cJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmwL0sJXEeS3rtSvS3PlAw" name="addParser">
+      <modelElement href="GizmoBallV1.uml#_MWQH4cJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OmwL08JXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OmwL1MJXEeS3rtSvS3PlAw" name="ps">
+        <modelElement href="GizmoBallV1.uml#_MWQH4sJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmwL1cJXEeS3rtSvS3PlAw" name="Praser">
+          <modelElement href="GizmoBallV1.uml#_MWPg0MJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OjkUAMJXEeS3rtSvS3PlAw" name="RunListener" associationsOut="_OjfbgMJXEeS3rtSvS3PlAw _Ojjs8MJXEeS3rtSvS3PlAw" generalizations="_P13iAMJaEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LtI5cMJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OjkUAcJXEeS3rtSvS3PlAw" position="-257.0,311.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OjkUAsJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OjkUA8JXEeS3rtSvS3PlAw" name="timer">
+      <modelElement href="GizmoBallV1.uml#_LzLQAMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OjkUBMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzL3EMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OjkUBcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzL3EMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OjkUBsJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OjkUB8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OjkUCMJXEeS3rtSvS3PlAw" name="Timer">
+        <modelElement href="GizmoBallV1.uml#_LxWrEcJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OjkUCcJXEeS3rtSvS3PlAw" name="model">
+      <modelElement href="GizmoBallV1.uml#_LzL3EcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OjkUCsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzMeIMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OjkUC8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzMeIMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OjkUDMJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OjkUDcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OjkUDsJXEeS3rtSvS3PlAw" name="Model">
+        <modelElement href="GizmoBallV1.uml#_LxZuYcJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OjkUD8JXEeS3rtSvS3PlAw" name="RunListener">
+      <modelElement href="GizmoBallV1.uml#_LyXXsMJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OjkUEMJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OjkUEcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OjkUEsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LyX-w8JXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OjkUE8JXEeS3rtSvS3PlAw" name="RunListener">
+          <modelElement href="GizmoBallV1.uml#_LtI5cMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OjkUFMJXEeS3rtSvS3PlAw" name="m">
+        <modelElement href="GizmoBallV1.uml#_LyX-wMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OjkUFcJXEeS3rtSvS3PlAw" name="Model">
+          <modelElement href="GizmoBallV1.uml#_LxZuYcJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OjkUFsJXEeS3rtSvS3PlAw" name="actionPerformed">
+      <modelElement href="GizmoBallV1.uml#_LyZz8MJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OjkUF8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LybCEMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OjkUGMJXEeS3rtSvS3PlAw" name="Annotations">
+        <modelElement href="GizmoBallV1.uml#_LybpIMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OjkUGcJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OjkUGsJXEeS3rtSvS3PlAw" name="e">
+        <modelElement href="GizmoBallV1.uml#_LyZz8cJXEeS3rtSvS3PlAw"/>
+        <keywords xmi:id="_OjkUG8JXEeS3rtSvS3PlAw" keyword="final"/>
+        <type xmi:id="_OjkUHMJXEeS3rtSvS3PlAw" name="ActionEvent">
+          <modelElement href="GizmoBallV1.uml#_LxFlUMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OjkUHcJXEeS3rtSvS3PlAw" name="keyPressed">
+      <modelElement href="GizmoBallV1.uml#_LycQMMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OjkUHsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_Lyc3QcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OjkUH8JXEeS3rtSvS3PlAw" name="Annotations">
+        <modelElement href="GizmoBallV1.uml#_LydeUMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OjkUIMJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OjkUIcJXEeS3rtSvS3PlAw" name="e">
+        <modelElement href="GizmoBallV1.uml#_Lyc3QMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OjkUIsJXEeS3rtSvS3PlAw" name="KeyEvent">
+          <modelElement href="GizmoBallV1.uml#_LxRykcJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OjkUI8JXEeS3rtSvS3PlAw" name="keyReleased">
+      <modelElement href="GizmoBallV1.uml#_LyeFYMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OjkUJMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LyfTgMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OjkUJcJXEeS3rtSvS3PlAw" name="Annotations">
+        <modelElement href="GizmoBallV1.uml#_LyfTgcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OjkUJsJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OjkUJ8JXEeS3rtSvS3PlAw" name="e">
+        <modelElement href="GizmoBallV1.uml#_LyescMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OjkUKMJXEeS3rtSvS3PlAw" name="KeyEvent">
+          <modelElement href="GizmoBallV1.uml#_LxRykcJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OjkUKcJXEeS3rtSvS3PlAw" name="keyTyped">
+      <modelElement href="GizmoBallV1.uml#_LyghoMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OjkUKsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LyhIsMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OjkUK8JXEeS3rtSvS3PlAw" name="Annotations">
+        <modelElement href="GizmoBallV1.uml#_LyhvwMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OjkULMJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OjkULcJXEeS3rtSvS3PlAw" name="e">
+        <modelElement href="GizmoBallV1.uml#_LyghocJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OjkULsJXEeS3rtSvS3PlAw" name="KeyEvent">
+          <modelElement href="GizmoBallV1.uml#_LxRykcJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OlwsacJXEeS3rtSvS3PlAw" name="Flipper" associationsOut="_OlwsYMJXEeS3rtSvS3PlAw" generalizations="_Oof3UcJXEeS3rtSvS3PlAw _Oo2cosJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LuhZgMJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OlxTcMJXEeS3rtSvS3PlAw" position="-430.0,-242.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OlxTccJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OlxTcsJXEeS3rtSvS3PlAw" defaultValue="0" name="direction">
+      <modelElement href="GizmoBallV1.uml#_LzcVwsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OlxTc8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzeK8MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OlxTdMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OlxTdcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OlxTdsJXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OlxTd8JXEeS3rtSvS3PlAw" defaultValue="false" name="keyPressed">
+      <modelElement href="GizmoBallV1.uml#_LzeK8cJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OlxTeMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzeyAMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OlxTecJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OlxTesJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OlxTe8JXEeS3rtSvS3PlAw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OlxTfMJXEeS3rtSvS3PlAw" defaultValue="new AffineTransform()" name="at">
+      <modelElement href="GizmoBallV1.uml#_LzfZEMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OlxTfcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzgnMMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OlxTfsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzgnMMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OlxTf8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OlxTgMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OlxTgcJXEeS3rtSvS3PlAw" name="AffineTransform">
+        <modelElement href="GizmoBallV1.uml#_Lx3ocMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OlxTgsJXEeS3rtSvS3PlAw" defaultValue="0" name="deg">
+      <modelElement href="GizmoBallV1.uml#_LzgnMcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OlxTg8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzhOQMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OlxThMJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OlxThcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OlxThsJXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OlxTh8JXEeS3rtSvS3PlAw" name="xpos2">
+      <modelElement href="GizmoBallV1.uml#_LzhOQcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OlxTiMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_Lzh1UMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OlxTicJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OlxTisJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OlxTi8JXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OlxTjMJXEeS3rtSvS3PlAw" name="ypos2">
+      <modelElement href="GizmoBallV1.uml#_LzicYMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OlxTjcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzicYcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OlxTjsJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OlxTj8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OlxTkMJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OlxTkcJXEeS3rtSvS3PlAw" name="Flipper">
+      <modelElement href="GizmoBallV1.uml#_Lukc0MJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OlxTksJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OlxTk8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OlxTlMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Lulq8sJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlxTlcJXEeS3rtSvS3PlAw" name="Flipper">
+          <modelElement href="GizmoBallV1.uml#_LuhZgMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OlxTlsJXEeS3rtSvS3PlAw" name="x1">
+        <modelElement href="GizmoBallV1.uml#_Lukc0cJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlxTl8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OlxTmMJXEeS3rtSvS3PlAw" name="y1">
+        <modelElement href="GizmoBallV1.uml#_Lukc0sJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlxTmcJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OlxTmsJXEeS3rtSvS3PlAw" name="x2">
+        <modelElement href="GizmoBallV1.uml#_LulD4MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlxTm8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OlxTnMJXEeS3rtSvS3PlAw" name="y2">
+        <modelElement href="GizmoBallV1.uml#_LulD4cJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlxTncJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OlxTnsJXEeS3rtSvS3PlAw" name="degrees">
+      <modelElement href="GizmoBallV1.uml#_LumSAMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlxTn8JXEeS3rtSvS3PlAw" label="+"/>
+    </operations>
+    <operations xmi:id="_OlxToMJXEeS3rtSvS3PlAw" name="getX2">
+      <modelElement href="GizmoBallV1.uml#_Lum5EMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlxTocJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OlxTosJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Lum5EcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlxTo8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OlxTpMJXEeS3rtSvS3PlAw" name="getY2">
+      <modelElement href="GizmoBallV1.uml#_LungIMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlxTpcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OlxTpsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LuoHMMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlxTp8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OlxTqMJXEeS3rtSvS3PlAw" name="rotateDirection">
+      <modelElement href="GizmoBallV1.uml#_LuouQMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlxTqcJXEeS3rtSvS3PlAw" label="+"/>
+    </operations>
+    <operations xmi:id="_OlxTqsJXEeS3rtSvS3PlAw" name="rotateFlipper">
+      <modelElement href="GizmoBallV1.uml#_LupVUMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlxTq8JXEeS3rtSvS3PlAw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OoOxkMJXEeS3rtSvS3PlAw" comments="_OoM8YMJXEeS3rtSvS3PlAw" targetConnectionVisual="_OoNjcMJXEeS3rtSvS3PlAw" name="CircleGizmo" generalizations="_Oof3UMJXEeS3rtSvS3PlAw _Oo2cocJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LuYPkMJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OoOxkcJXEeS3rtSvS3PlAw" position="-1.0,-66.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OoOxksJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OoOxk8JXEeS3rtSvS3PlAw" name="radius">
+      <modelElement href="GizmoBallV1.uml#_LzbusMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoOxlMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OoOxlcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OoOxlsJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OoOxl8JXEeS3rtSvS3PlAw" name="CircleGizmo">
+      <modelElement href="GizmoBallV1.uml#_LuZdsMJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OoOxmMJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OoOxmcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OoOxmsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Luar0sJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoOxm8JXEeS3rtSvS3PlAw" name="CircleGizmo">
+          <modelElement href="GizmoBallV1.uml#_LuYPkMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OoOxnMJXEeS3rtSvS3PlAw" name="x">
+        <modelElement href="GizmoBallV1.uml#_LuaEwMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoOxncJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OoOxnsJXEeS3rtSvS3PlAw" name="y">
+        <modelElement href="GizmoBallV1.uml#_LuaEwcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoOxn8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OoOxoMJXEeS3rtSvS3PlAw" name="getCircle">
+      <modelElement href="GizmoBallV1.uml#_Luar08JXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoOxocJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OoOxosJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LypEgMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoOxo8JXEeS3rtSvS3PlAw" name="Circle">
+          <modelElement href="GizmoBallV1.uml#_LxvFkMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OlUnicJXEeS3rtSvS3PlAw" comments="_OlPH8MJXEeS3rtSvS3PlAw" targetConnectionVisual="_OlPvAMJXEeS3rtSvS3PlAw" name="Ball" associationsOut="_OlUngMJXEeS3rtSvS3PlAw" generalizations="_OofQQcJXEeS3rtSvS3PlAw _Oo2coMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LuDfcMJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OlUnisJXEeS3rtSvS3PlAw" position="171.0,-253.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OlUni8JXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OlUnjMJXEeS3rtSvS3PlAw" name="velocity">
+      <modelElement href="GizmoBallV1.uml#_LzYrYMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OlUnjcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzZScMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OlUnjsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzZScMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OlUnj8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OlUnkMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OlUnkcJXEeS3rtSvS3PlAw" name="Vect">
+        <modelElement href="GizmoBallV1.uml#_LxYgQMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OlVOkMJXEeS3rtSvS3PlAw" name="radius">
+      <modelElement href="GizmoBallV1.uml#_LzZSccJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlVOkcJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OlVOksJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OlVOk8JXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OlVOlMJXEeS3rtSvS3PlAw" name="stopped">
+      <modelElement href="GizmoBallV1.uml#_LzZ5gMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OlVOlcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzZ5gcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OlVOlsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OlVOl8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OlVOmMJXEeS3rtSvS3PlAw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OlVOmcJXEeS3rtSvS3PlAw" name="Ball">
+      <modelElement href="GizmoBallV1.uml#_LuF7sMJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OlVOmsJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OlVOm8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OlVOnMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LuHJ0MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlVOncJXEeS3rtSvS3PlAw" name="Ball">
+          <modelElement href="GizmoBallV1.uml#_LuDfcMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OlVOnsJXEeS3rtSvS3PlAw" name="x">
+        <modelElement href="GizmoBallV1.uml#_LuF7scJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlVOn8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OlVOoMJXEeS3rtSvS3PlAw" name="y">
+        <modelElement href="GizmoBallV1.uml#_LuGiwMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlVOocJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OlVOosJXEeS3rtSvS3PlAw" name="xv">
+        <modelElement href="GizmoBallV1.uml#_LuGiwcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlVOo8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OlVOpMJXEeS3rtSvS3PlAw" name="yv">
+        <modelElement href="GizmoBallV1.uml#_LuGiwsJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlVOpcJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OlVOpsJXEeS3rtSvS3PlAw" name="getCircle">
+      <modelElement href="GizmoBallV1.uml#_LuHw4MJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlVOp8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OlVOqMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LymBMMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlVOqcJXEeS3rtSvS3PlAw" name="Circle">
+          <modelElement href="GizmoBallV1.uml#_LxvFkMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OlVOqsJXEeS3rtSvS3PlAw" name="getVelo">
+      <modelElement href="GizmoBallV1.uml#_LuPFoMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlVOq8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OlVOrMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LymoQMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlVOrcJXEeS3rtSvS3PlAw" name="Vect">
+          <modelElement href="GizmoBallV1.uml#_LxYgQMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OlVOrsJXEeS3rtSvS3PlAw" name="setVelo">
+      <modelElement href="GizmoBallV1.uml#_LynPUMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OlVOr8JXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OlVOsMJXEeS3rtSvS3PlAw" name="v">
+        <modelElement href="GizmoBallV1.uml#_LynPUcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OlVOscJXEeS3rtSvS3PlAw" name="Vect">
+          <modelElement href="GizmoBallV1.uml#_LxYgQMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_OordgMJXEeS3rtSvS3PlAw" comments="_OoepMMJXEeS3rtSvS3PlAw" targetConnectionVisual="_OoepMcJXEeS3rtSvS3PlAw" name="IGizmo" associationsIn="_Ooq2cMJXEeS3rtSvS3PlAw" subclassedBy="_OofQQMJXEeS3rtSvS3PlAw _OofQQcJXEeS3rtSvS3PlAw _Oof3UMJXEeS3rtSvS3PlAw _Oof3UcJXEeS3rtSvS3PlAw _Oof3UsJXEeS3rtSvS3PlAw _OogeYMJXEeS3rtSvS3PlAw _Oo11kMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LvMH4MJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OordgcJXEeS3rtSvS3PlAw" position="41.0,-795.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OordgsJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_Oordg8JXEeS3rtSvS3PlAw" name="color">
+      <modelElement href="GizmoBallV1.uml#_LvN9EMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OordhMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OordhcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OordhsJXEeS3rtSvS3PlAw" name="Color">
+        <modelElement href="GizmoBallV1.uml#_LxgcEMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Oordh8JXEeS3rtSvS3PlAw" name="iD">
+      <modelElement href="GizmoBallV1.uml#_LvPyQMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OordiMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OordicJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OordisJXEeS3rtSvS3PlAw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Oordi8JXEeS3rtSvS3PlAw" name="x1">
+      <modelElement href="GizmoBallV1.uml#_LvRAYMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OordjMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OordjcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OordjsJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Oordj8JXEeS3rtSvS3PlAw" name="y1">
+      <modelElement href="GizmoBallV1.uml#_LvRncMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OordkMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OordkcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OordksJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Oo-YcMJXEeS3rtSvS3PlAw" name="Gizmo" associationsOut="_Oo3qwMJXEeS3rtSvS3PlAw" generalizations="_Oo11kMJXEeS3rtSvS3PlAw" subclassedBy="_Oo11kcJXEeS3rtSvS3PlAw _Oo2coMJXEeS3rtSvS3PlAw _Oo2cocJXEeS3rtSvS3PlAw _Oo2cosJXEeS3rtSvS3PlAw _Oo3DsMJXEeS3rtSvS3PlAw _Oo3DscJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LuuN0MJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_Oo-YccJXEeS3rtSvS3PlAw" position="29.0,-628.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Oo-YcsJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_Oo-Yc8JXEeS3rtSvS3PlAw" name="xpos1">
+      <modelElement href="GizmoBallV1.uml#_LzjDcMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Oo-YdMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzkRkMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Oo-YdcJXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_Oo-YdsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_Oo-Yd8JXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Oo-YeMJXEeS3rtSvS3PlAw" name="ypos1">
+      <modelElement href="GizmoBallV1.uml#_LzkRkcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Oo-YecJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzkRksJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Oo-YesJXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_Oo-Ye8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_Oo-YfMJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Oo-YfcJXEeS3rtSvS3PlAw" name="color">
+      <modelElement href="GizmoBallV1.uml#_Lzk4oMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Oo-YfsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_Lzk4ocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Oo9xYMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_Lzk4ocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Oo-Yf8JXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_Oo-YgMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_Oo-YgcJXEeS3rtSvS3PlAw" name="Color">
+        <modelElement href="GizmoBallV1.uml#_LxgcEMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Oo-YgsJXEeS3rtSvS3PlAw" name="id">
+      <modelElement href="GizmoBallV1.uml#_LzlfsMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Oo-Yg8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzlfscJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Oo-YhMJXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_Oo-YhcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_Oo-YhsJXEeS3rtSvS3PlAw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Oo-Yh8JXEeS3rtSvS3PlAw" name="opcode">
+      <modelElement href="GizmoBallV1.uml#_LzmGwMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Oo-YiMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_Lzmt0MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Oo-YicJXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_Oo-YisJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_Oo-Yi8JXEeS3rtSvS3PlAw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Oo-YjMJXEeS3rtSvS3PlAw" name="getColor">
+      <modelElement href="GizmoBallV1.uml#_LuwqEMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo-YjcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_Oo-YjsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Ly6KQMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-Yj8JXEeS3rtSvS3PlAw" name="Color">
+          <modelElement href="GizmoBallV1.uml#_LxgcEMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Oo-YkMJXEeS3rtSvS3PlAw" name="getID">
+      <modelElement href="GizmoBallV1.uml#_Lux4MMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo-YkcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_Oo-YksJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LuyfQMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-Yk8JXEeS3rtSvS3PlAw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Oo-YlMJXEeS3rtSvS3PlAw" name="getOpCode">
+      <modelElement href="GizmoBallV1.uml#_LuzGUMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo-YlcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_Oo-YlsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LuztYMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-Yl8JXEeS3rtSvS3PlAw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Oo-YmMJXEeS3rtSvS3PlAw" name="getX1">
+      <modelElement href="GizmoBallV1.uml#_LuztYcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo-YmcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_Oo-YmsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Lu0UcMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-Ym8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Oo-YnMJXEeS3rtSvS3PlAw" name="getY1">
+      <modelElement href="GizmoBallV1.uml#_Lu0UccJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Oo-YncJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_Lu1ikMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Oo-YnsJXEeS3rtSvS3PlAw" name="Annotations">
+        <modelElement href="GizmoBallV1.uml#_Lu3XwMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Oo-Yn8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_Oo-YoMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Lu07gMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-YocJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Oo-YosJXEeS3rtSvS3PlAw" name="setID">
+      <modelElement href="GizmoBallV1.uml#_LvC98MJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo-Yo8JXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_Oo-YpMJXEeS3rtSvS3PlAw" name="s">
+        <modelElement href="GizmoBallV1.uml#_LvDlAMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-YpcJXEeS3rtSvS3PlAw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Oo-YpsJXEeS3rtSvS3PlAw" name="setOpCode">
+      <modelElement href="GizmoBallV1.uml#_LvEzIMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo-Yp8JXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_Oo-YqMJXEeS3rtSvS3PlAw" name="s">
+        <modelElement href="GizmoBallV1.uml#_LvEzIcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-YqcJXEeS3rtSvS3PlAw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Oo-YqsJXEeS3rtSvS3PlAw" name="setX1">
+      <modelElement href="GizmoBallV1.uml#_LvFaMMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo-Yq8JXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_Oo-YrMJXEeS3rtSvS3PlAw" name="x">
+        <modelElement href="GizmoBallV1.uml#_LvFaMcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-YrcJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Oo-YrsJXEeS3rtSvS3PlAw" name="setY1">
+      <modelElement href="GizmoBallV1.uml#_LvGoUMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo-Yr8JXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_Oo-YsMJXEeS3rtSvS3PlAw" name="y">
+        <modelElement href="GizmoBallV1.uml#_LvGoUcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-YscJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Oo-YssJXEeS3rtSvS3PlAw" name="setColor">
+      <modelElement href="GizmoBallV1.uml#_Ly6xUMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_Oo-Ys8JXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_Oo-YtMJXEeS3rtSvS3PlAw" name="c">
+        <modelElement href="GizmoBallV1.uml#_Ly6xUcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_Oo-YtcJXEeS3rtSvS3PlAw" name="Color">
+          <modelElement href="GizmoBallV1.uml#_LxgcEMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OmFcgMJXEeS3rtSvS3PlAw" name="Walls" associationsIn="_OmBLEMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LvtsUMJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OmFcgcJXEeS3rtSvS3PlAw" position="391.0,-30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OmFcgsJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OmFcg8JXEeS3rtSvS3PlAw" name="xpos1">
+      <modelElement href="GizmoBallV1.uml#_Lzv3wMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmFchMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_Lzwe0MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmFchcJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmFchsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmFch8JXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmFciMJXEeS3rtSvS3PlAw" name="ypos1">
+      <modelElement href="GizmoBallV1.uml#_Lzwe0cJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmFcicJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_Lzwe0sJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmFcisJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmFci8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmFcjMJXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmFcjcJXEeS3rtSvS3PlAw" name="ypos2">
+      <modelElement href="GizmoBallV1.uml#_LzxF4MJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmFcjsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzxF4cJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmFcj8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmFckMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmFckcJXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OmFcksJXEeS3rtSvS3PlAw" name="xpos2">
+      <modelElement href="GizmoBallV1.uml#_Lzxs8MJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmFck8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_Lzxs8cJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmFclMJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OmFclcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OmFclsJXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OmFcl8JXEeS3rtSvS3PlAw" name="Walls">
+      <modelElement href="GizmoBallV1.uml#_LvwIkMJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OmFcmMJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OmFcmcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmFcmsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LvwvosJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmFcm8JXEeS3rtSvS3PlAw" name="Walls">
+          <modelElement href="GizmoBallV1.uml#_LvtsUMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OmFcnMJXEeS3rtSvS3PlAw" name="x1">
+        <modelElement href="GizmoBallV1.uml#_LvwIkcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmFcncJXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmFcnsJXEeS3rtSvS3PlAw" name="y1">
+        <modelElement href="GizmoBallV1.uml#_LvwIksJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmFcn8JXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmFcoMJXEeS3rtSvS3PlAw" name="x2">
+        <modelElement href="GizmoBallV1.uml#_LvwIk8JXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmFcocJXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OmFcosJXEeS3rtSvS3PlAw" name="y2">
+        <modelElement href="GizmoBallV1.uml#_LvwIlMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmFco8JXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmFcpMJXEeS3rtSvS3PlAw" name="getLSegments">
+      <modelElement href="GizmoBallV1.uml#_Lvwvo8JXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OmFcpcJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_Lvx9wMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OmFcpsJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OmFcp8JXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LzFwcMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OmFcqMJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OpHiYMJXEeS3rtSvS3PlAw" comments="_OokIwMJXEeS3rtSvS3PlAw" targetConnectionVisual="_OokIwcJXEeS3rtSvS3PlAw" name="TriangleGizmo" associationsOut="_OokIwsJXEeS3rtSvS3PlAw _Ookv0MJXEeS3rtSvS3PlAw" generalizations="_OogeYMJXEeS3rtSvS3PlAw _Oo3DscJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LvgQ8MJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OpHiYcJXEeS3rtSvS3PlAw" position="-769.0,40.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OpHiYsJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OpHiY8JXEeS3rtSvS3PlAw" name="height">
+      <modelElement href="GizmoBallV1.uml#_LzrmUcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpHiZMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzsNYMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpHiZcJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpHiZsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpHiZ8JXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OpHiaMJXEeS3rtSvS3PlAw" name="cs">
+      <modelElement href="GizmoBallV1.uml#_Lzs0cMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpHiacJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LztbgMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OpHiasJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LztbgcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OooaMMJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LztbgMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OooaMcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LztbgcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpHia8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpHibMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpHibcJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OpHibsJXEeS3rtSvS3PlAw" name="ls">
+      <modelElement href="GizmoBallV1.uml#_LzuCkMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpHib8JXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LzupoMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OpHicMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzupocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OopoUMJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LzupoMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OopoUcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzupocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpHiccJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpHicsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpHic8JXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OpHidMJXEeS3rtSvS3PlAw" defaultValue="25" name="L">
+      <modelElement href="GizmoBallV1.uml#_LzvQsMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpHidcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzvQssJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpHidsJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpHid8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpHieMJXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OpHiecJXEeS3rtSvS3PlAw" name="TriangleGizmo">
+      <modelElement href="GizmoBallV1.uml#_LviGIMJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OpHiesJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OpHie8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OpHifMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LvjUQcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpHifcJXEeS3rtSvS3PlAw" name="TriangleGizmo">
+          <modelElement href="GizmoBallV1.uml#_LvgQ8MJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OpHifsJXEeS3rtSvS3PlAw" name="x">
+        <modelElement href="GizmoBallV1.uml#_LvitMMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpHif8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OpHigMJXEeS3rtSvS3PlAw" name="y">
+        <modelElement href="GizmoBallV1.uml#_LvitMcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpHigcJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OpHigsJXEeS3rtSvS3PlAw" name="h">
+        <modelElement href="GizmoBallV1.uml#_LvitMsJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpHig8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OpHihMJXEeS3rtSvS3PlAw" name="getCircles">
+      <modelElement href="GizmoBallV1.uml#_LvjUQsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpHihcJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LvkiYMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpHihsJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OpHih8JXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LzAQ4MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpHiiMJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OpHiicJXEeS3rtSvS3PlAw" name="getH">
+      <modelElement href="GizmoBallV1.uml#_LvlwgMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OpHiisJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OpHii8JXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LvlwgcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpHijMJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OpHijcJXEeS3rtSvS3PlAw" name="getLSegments">
+      <modelElement href="GizmoBallV1.uml#_LvlwgsJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpHijsJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_Lvm-oMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpHij8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OpHikMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LzA38MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpHikcJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OpHiksJXEeS3rtSvS3PlAw" name="rotate">
+      <modelElement href="GizmoBallV1.uml#_LvnlsMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OpHik8JXEeS3rtSvS3PlAw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OoyyQsJXEeS3rtSvS3PlAw" comments="_OowWAMJXEeS3rtSvS3PlAw" targetConnectionVisual="_Oow9EMJXEeS3rtSvS3PlAw" name="CollisionDetails" associationsOut="_Oow9EcJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LudvIMJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OoyyQ8JXEeS3rtSvS3PlAw" position="919.0,206.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OoyyRMJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OoyyRcJXEeS3rtSvS3PlAw" name="tuc">
+      <modelElement href="GizmoBallV1.uml#_LzcVwMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoyyRsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OoyyR8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OoyySMJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OoyyScJXEeS3rtSvS3PlAw" name="velo">
+      <modelElement href="GizmoBallV1.uml#_LzcVwcJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoyySsJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OoyyS8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OoyyTMJXEeS3rtSvS3PlAw" name="Vect">
+        <modelElement href="GizmoBallV1.uml#_LxYgQMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OoyyTcJXEeS3rtSvS3PlAw" name="CollisionDetails">
+      <modelElement href="GizmoBallV1.uml#_LyqSoMJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OoyyTsJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OoyyT8JXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OoyyUMJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Lyq5s8JXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoyyUcJXEeS3rtSvS3PlAw" name="CollisionDetails">
+          <modelElement href="GizmoBallV1.uml#_LudvIMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OoyyUsJXEeS3rtSvS3PlAw" name="t">
+        <modelElement href="GizmoBallV1.uml#_LyqSocJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoyyU8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OoyyVMJXEeS3rtSvS3PlAw" name="v">
+        <modelElement href="GizmoBallV1.uml#_Lyq5sMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoyyVcJXEeS3rtSvS3PlAw" name="Vect">
+          <modelElement href="GizmoBallV1.uml#_LxYgQMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OpjAOcJXEeS3rtSvS3PlAw" name="RunGui" associationsOut="_OpbrcMJXEeS3rtSvS3PlAw _OpdgoMJXEeS3rtSvS3PlAw _OphyEMJXEeS3rtSvS3PlAw _OpjAMMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_M-X30MJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OpjAOsJXEeS3rtSvS3PlAw" position="924.0,365.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OpjAO8JXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OpjAPMJXEeS3rtSvS3PlAw" name="model">
+      <modelElement href="GizmoBallV1.uml#_M_QooMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpjAPcJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_QoocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Opf848JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_QoocJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpjAPsJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpjAP8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpjAQMJXEeS3rtSvS3PlAw" name="Model">
+        <modelElement href="GizmoBallV1.uml#_LxZuYcJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OpjAQcJXEeS3rtSvS3PlAw" name="frame">
+      <modelElement href="GizmoBallV1.uml#_M_RPsMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpjAQsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_RPscJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OpjAQ8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_RPscJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpjARMJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpjARcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpjARsJXEeS3rtSvS3PlAw" name="JFrame">
+        <modelElement href="GizmoBallV1.uml#_M_AJ8cJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OpjAR8JXEeS3rtSvS3PlAw" name="listener">
+      <modelElement href="GizmoBallV1.uml#_M_RPssJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpjASMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_RPs8JXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OpjAScJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_RPs8JXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpjASsJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpjAS8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpjATMJXEeS3rtSvS3PlAw" name="ActionListener">
+        <modelElement href="GizmoBallV1.uml#_LxPWUMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OpjATcJXEeS3rtSvS3PlAw" name="board">
+      <modelElement href="GizmoBallV1.uml#_M_RPtMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpjATsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_R2wMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Opf86MJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_R2wMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpjAT8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpjAUMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpjAUcJXEeS3rtSvS3PlAw" name="Board">
+        <modelElement href="GizmoBallV1.uml#_M-RKIMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OpjAUsJXEeS3rtSvS3PlAw" name="RunGui">
+      <modelElement href="GizmoBallV1.uml#_M-ZF8MJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OpjAU8JXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OpjAVMJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OpjAVcJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_M-ZF9MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpjAVsJXEeS3rtSvS3PlAw" name="RunGui">
+          <modelElement href="GizmoBallV1.uml#_M-X30MJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OpjAV8JXEeS3rtSvS3PlAw" name="m">
+        <modelElement href="GizmoBallV1.uml#_M-ZF8cJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpjAWMJXEeS3rtSvS3PlAw" name="Model">
+          <modelElement href="GizmoBallV1.uml#_LxZuYcJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OpjAWcJXEeS3rtSvS3PlAw" name="createAndShowGUI">
+      <modelElement href="GizmoBallV1.uml#_M-ZF9cJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OpjAWsJXEeS3rtSvS3PlAw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OpVk0MJXEeS3rtSvS3PlAw" name="Board" associationsIn="_OpdgoMJXEeS3rtSvS3PlAw" associationsOut="_OpQFQMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_M-RKIMJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OpVk0cJXEeS3rtSvS3PlAw" position="903.0,556.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OpVk0sJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OpVk08JXEeS3rtSvS3PlAw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="GizmoBallV1.uml#_M_OzcMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OpVk1MJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OpVk1cJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpVk1sJXEeS3rtSvS3PlAw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OpVk18JXEeS3rtSvS3PlAw" name="width">
+      <modelElement href="GizmoBallV1.uml#_M_PagcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpVk2MJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_PagsJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpVk2cJXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_OpVk2sJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpVk28JXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OpVk3MJXEeS3rtSvS3PlAw" name="height">
+      <modelElement href="GizmoBallV1.uml#_M_QBkMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpVk3cJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_QBkcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpVk3sJXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_OpVk38JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpVk4MJXEeS3rtSvS3PlAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OpVk4cJXEeS3rtSvS3PlAw" name="gm">
+      <modelElement href="GizmoBallV1.uml#_M_QBksJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpVk4sJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_QBk8JXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OpTvpMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_QBk8JXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpVk48JXEeS3rtSvS3PlAw" label="#"/>
+      <cardinality xmi:id="_OpVk5MJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OpVk5cJXEeS3rtSvS3PlAw" name="Model">
+        <modelElement href="GizmoBallV1.uml#_LxZuYcJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OpVk5sJXEeS3rtSvS3PlAw" name="Board">
+      <modelElement href="GizmoBallV1.uml#_M-U0gMJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OpVk58JXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OpVk6MJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OpVk6cJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_M-VblMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpVk6sJXEeS3rtSvS3PlAw" name="Board">
+          <modelElement href="GizmoBallV1.uml#_M-RKIMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OpVk68JXEeS3rtSvS3PlAw" name="w">
+        <modelElement href="GizmoBallV1.uml#_M-U0gcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpVk7MJXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OpVk7cJXEeS3rtSvS3PlAw" name="h">
+        <modelElement href="GizmoBallV1.uml#_M-VbkMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpVk7sJXEeS3rtSvS3PlAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OpVk78JXEeS3rtSvS3PlAw" name="m">
+        <modelElement href="GizmoBallV1.uml#_M-VbkcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpVk8MJXEeS3rtSvS3PlAw" name="Model">
+          <modelElement href="GizmoBallV1.uml#_LxZuYcJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OpVk8cJXEeS3rtSvS3PlAw" name="getPreferredSize">
+      <modelElement href="GizmoBallV1.uml#_M-WCoMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OpVk8sJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OpVk88JXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_M_J68MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpVk9MJXEeS3rtSvS3PlAw" name="Dimension">
+          <modelElement href="GizmoBallV1.uml#_M-vrQMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OpVk9cJXEeS3rtSvS3PlAw" name="paintComponent">
+      <modelElement href="GizmoBallV1.uml#_M_KiAMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OpVk9sJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OpVk98JXEeS3rtSvS3PlAw" name="g">
+        <modelElement href="GizmoBallV1.uml#_M_KiAcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpVk-MJXEeS3rtSvS3PlAw" name="Graphics">
+          <modelElement href="GizmoBallV1.uml#_M-xgcMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OpVk-cJXEeS3rtSvS3PlAw" name="update">
+      <modelElement href="GizmoBallV1.uml#_M_LwIcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OpVk-sJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_M_MXMcJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OpVk-8JXEeS3rtSvS3PlAw" name="Annotations">
+        <modelElement href="GizmoBallV1.uml#_M_MXMsJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OpVk_MJXEeS3rtSvS3PlAw" label="+"/>
+      <parameters xmi:id="_OpVk_cJXEeS3rtSvS3PlAw" name="arg0">
+        <modelElement href="GizmoBallV1.uml#_M_LwIsJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpVk_sJXEeS3rtSvS3PlAw" name="Observable">
+          <modelElement href="GizmoBallV1.uml#_LxUO0cJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OpVk_8JXEeS3rtSvS3PlAw" name="arg1">
+        <modelElement href="GizmoBallV1.uml#_M_MXMMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OpVlAMJXEeS3rtSvS3PlAw" name="Object">
+          <modelElement href="GizmoBallV1.uml#_M_LJEMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Olip8MJXEeS3rtSvS3PlAw" comments="_OldxcMJXEeS3rtSvS3PlAw" targetConnectionVisual="_OldxccJXEeS3rtSvS3PlAw" name="AbsorberGizmo" associationsOut="_OliC4MJXEeS3rtSvS3PlAw" generalizations="_OofQQMJXEeS3rtSvS3PlAw _Oo11kcJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LtjJIMJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_Olip8cJXEeS3rtSvS3PlAw" position="591.0,-246.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Olip8sJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_Olip88JXEeS3rtSvS3PlAw" name="xpos2">
+      <modelElement href="GizmoBallV1.uml#_LzQvkMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Olip9MJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzRWoMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Olip9cJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_Olip9sJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_Olip98JXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Olip-MJXEeS3rtSvS3PlAw" name="ypos2">
+      <modelElement href="GizmoBallV1.uml#_LzR9sMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Olip-cJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzSkwMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Olip-sJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_Olip-8JXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_Olip_MJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Olip_cJXEeS3rtSvS3PlAw" name="height">
+      <modelElement href="GizmoBallV1.uml#_LzSkwcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_Olip_sJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzTL0MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_Olip_8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OliqAMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OliqAcJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OliqAsJXEeS3rtSvS3PlAw" name="widht">
+      <modelElement href="GizmoBallV1.uml#_LzTL0cJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OliqA8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzUZ8MJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OliqBMJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OliqBcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OliqBsJXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OliqB8JXEeS3rtSvS3PlAw" name="ls">
+      <modelElement href="GizmoBallV1.uml#_LzUZ8cJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OliqCMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzVBAMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OliqCcJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LzVoEMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OliqCsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzVBAMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OliqC8JXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LzVoEMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OliqDMJXEeS3rtSvS3PlAw" label="+"/>
+      <cardinality xmi:id="_OliqDcJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OliqDsJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OliqD8JXEeS3rtSvS3PlAw" name="AbsorberGizmo">
+      <modelElement href="GizmoBallV1.uml#_Ltv9cMJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OliqEMJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OliqEcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OliqEsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Lt-m8cJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OliqE8JXEeS3rtSvS3PlAw" name="AbsorberGizmo">
+          <modelElement href="GizmoBallV1.uml#_LtjJIMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OliqFMJXEeS3rtSvS3PlAw" name="x1">
+        <modelElement href="GizmoBallV1.uml#_LtwkgMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OliqFcJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OliqFsJXEeS3rtSvS3PlAw" name="y1">
+        <modelElement href="GizmoBallV1.uml#_LtwkgcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OliqF8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OliqGMJXEeS3rtSvS3PlAw" name="x2">
+        <modelElement href="GizmoBallV1.uml#_LtwkgsJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OliqGcJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OliqGsJXEeS3rtSvS3PlAw" name="y2">
+        <modelElement href="GizmoBallV1.uml#_LtxLkMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OliqG8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OoYikMJXEeS3rtSvS3PlAw" name="SquareGizmo" associationsOut="_OoTDAMJXEeS3rtSvS3PlAw _OoTDAcJXEeS3rtSvS3PlAw" generalizations="_Oof3UsJXEeS3rtSvS3PlAw _Oo3DsMJXEeS3rtSvS3PlAw">
+    <modelElement href="GizmoBallV1.uml#_LvS1kMJXEeS3rtSvS3PlAw"/>
+    <visualProperties xmi:id="_OoYikcJXEeS3rtSvS3PlAw" position="-857.0,-239.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OoYiksJXEeS3rtSvS3PlAw" label="+"/>
+    <attributes xmi:id="_OoYik8JXEeS3rtSvS3PlAw" name="height">
+      <modelElement href="GizmoBallV1.uml#_LznU4MJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OoYilMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LznU4cJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OoYilcJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OoYilsJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OoYil8JXEeS3rtSvS3PlAw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OoYimMJXEeS3rtSvS3PlAw" name="cs">
+      <modelElement href="GizmoBallV1.uml#_Lzn78MJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OoYimcJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LzojAMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OoYimsJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzpKEMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OoWtY8JXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LzojAMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OoWtZMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzpKEMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OoYim8JXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OoYinMJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OoYincJXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OoYinsJXEeS3rtSvS3PlAw" name="ls">
+      <modelElement href="GizmoBallV1.uml#_LzpKEcJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OoYin8JXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_Lzq_QMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OoYioMJXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzrmUMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OoXUcsJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_Lzq_QMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OoXUc8JXEeS3rtSvS3PlAw" name="LegacyStyledElement">
+        <modelElement href="GizmoBallV1.uml#_LzrmUMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OoYiocJXEeS3rtSvS3PlAw" label="-"/>
+      <cardinality xmi:id="_OoYiosJXEeS3rtSvS3PlAw" label="1" max="1" min="1"/>
+      <type xmi:id="_OoYio8JXEeS3rtSvS3PlAw" name="ArrayList">
+        <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OoYipMJXEeS3rtSvS3PlAw" name="SquareGizmo">
+      <modelElement href="GizmoBallV1.uml#_LvVR0MJXEeS3rtSvS3PlAw"/>
+      <keywords xmi:id="_OoYipcJXEeS3rtSvS3PlAw" keyword="create"/>
+      <visibility xmi:id="_OoYipsJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OoYip8JXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LvWf8sJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoYiqMJXEeS3rtSvS3PlAw" name="SquareGizmo">
+          <modelElement href="GizmoBallV1.uml#_LvS1kMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OoYiqcJXEeS3rtSvS3PlAw" name="x">
+        <modelElement href="GizmoBallV1.uml#_LvVR0cJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoYiqsJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OoYiq8JXEeS3rtSvS3PlAw" name="y">
+        <modelElement href="GizmoBallV1.uml#_LvV44MJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoYirMJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OoYircJXEeS3rtSvS3PlAw" name="h">
+        <modelElement href="GizmoBallV1.uml#_LvV44cJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoYirsJXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OoYir8JXEeS3rtSvS3PlAw" name="getCircles">
+      <modelElement href="GizmoBallV1.uml#_LvXHAMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OoYisMJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_LvY8MMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OoYiscJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OoYissJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Ly90oMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoYis8JXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OoYitMJXEeS3rtSvS3PlAw" name="getH">
+      <modelElement href="GizmoBallV1.uml#_LvaKUMJXEeS3rtSvS3PlAw"/>
+      <visibility xmi:id="_OoYitcJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OoYitsJXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_LvaKUcJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoYit8JXEeS3rtSvS3PlAw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OoYiuMJXEeS3rtSvS3PlAw" name="getLSegments">
+      <modelElement href="GizmoBallV1.uml#_LvaxYMJXEeS3rtSvS3PlAw"/>
+      <stereotypes xmi:id="_OoYiucJXEeS3rtSvS3PlAw" name="Generics">
+        <modelElement href="GizmoBallV1.uml#_Lvb_gMJXEeS3rtSvS3PlAw"/>
+      </stereotypes>
+      <visibility xmi:id="_OoYiusJXEeS3rtSvS3PlAw" label="+"/>
+      <outParameters xmi:id="_OoYiu8JXEeS3rtSvS3PlAw">
+        <modelElement href="GizmoBallV1.uml#_Ly-bsMJXEeS3rtSvS3PlAw"/>
+        <type xmi:id="_OoYivMJXEeS3rtSvS3PlAw" name="ArrayList">
+          <modelElement href="GizmoBallV1.uml#_LxhqMMJXEeS3rtSvS3PlAw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

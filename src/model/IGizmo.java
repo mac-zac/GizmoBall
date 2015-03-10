@@ -7,15 +7,15 @@ import java.awt.Color;
  */
 public interface IGizmo {
 	
-	public void setColor (Color c);
-	public void setID(String s);
-	public void setX(double x);
-	public void setY(double y);
-	
 	public Color getColor();
 	public String getID();
-	public double getX();
-	public double getY();
+	public double getX1();
+	public double getY1();
+	
+	public void setColor (Color c);
+	public void setID(String s);
+	public void setX1(double x);
+	public void setY1(double y);
 	
 
 }

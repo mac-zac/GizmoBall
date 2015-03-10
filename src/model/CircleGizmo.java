@@ -9,23 +9,23 @@ import physics.Vect;
  * @author Maciej Zajac GizmoBall 27/02/2015
  */
 public class CircleGizmo extends Gizmo implements IGizmo {
-	private double xpos;
-	private double ypos;
-	private Color color;
+	
 	private double radius;
-	private String id;
+	
 
 	//constructor -- setting up coordinates, radius and color
-	public CircleGizmo(double x, double y){
-		xpos =x;
-		ypos = y;
-		radius = 10;
+	public CircleGizmo(String op, String ID, double x, double y){
+		xpos1 =x;
+		ypos1 = y;
+		radius = 25;
 		color = Color.orange;
+		opcode = op;
+		id = ID;
 	}
 	//setters
 	
-	public void setRadius(double r){
-		radius = r;
+	public Circle getCircle(){
+		return new Circle (xpos1, ypos1, radius);
 	}
 	
 	
@@ -34,8 +34,8 @@ public class CircleGizmo extends Gizmo implements IGizmo {
 	public double getRadius(){
 		return radius;
 	}
-	public Circle getCircle(){
-		return new Circle (xpos, ypos, radius);
+	public void setRadius(double r){
+		radius = r;
 	}
 
 }
