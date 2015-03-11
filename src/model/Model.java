@@ -280,7 +280,7 @@ public class Model extends Observable {
 					}	
 					if(absTime<0.05&& assOn){
 						//balls.get(i).setVelo(new Vect(0, 0));
-						RunListener.timer.stop();
+					//	RunListener.timer.stop();
 						balls.get(i).setVelo(new Vect(0, balls.get(i).getVelo().y()));
 						balls.get(i).setStopped(true);
 					balls.get(i).setX1(490);

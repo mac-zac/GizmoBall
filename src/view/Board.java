@@ -147,46 +147,10 @@ public  class Board extends JPanel implements Observer {
 		            g2d.fill(shape);
 		            g2d.fill(pivotedCircle);
 		            g2d.fillOval((int)x1pos,(int) y1pos, 15, 15);
-				
-			
-			
 			}
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			
 		}
 
-		/*for(int i = 0; i < gm.getLeftFlipper().size(); i++){
-			gm.getLeftFlipper().get(i).paint(g);
-		}*/
 		// Draw all squares
 		for (SquareGizmo sq : gm.getSquare()) {
 			g2.setColor(sq.getColor());

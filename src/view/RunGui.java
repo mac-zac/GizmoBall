@@ -39,7 +39,7 @@ public class RunGui {
 		frame.setFocusable(true);
 		//frame.addKeyListener(new RunListener(model));
 		frame.addKeyListener(klist);
-		frame.setFocusable(false);
+	//	frame.setFocusable(true);
 
 		// Board is passed the Model so it can act as Observer
 		board = new Board(500, 500, model);
