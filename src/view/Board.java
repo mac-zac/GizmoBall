@@ -10,6 +10,9 @@ import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 import java.awt.geom.AffineTransform;
+import java.awt.geom.Area;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Rectangle2D;
 
 import javax.swing.BorderFactory;
 import javax.swing.JPanel;
@@ -19,6 +22,7 @@ import physics.Vect;
 import model.AbsorberGizmo;
 import model.Ball;
 import model.CircleGizmo;
+import model.Flipper;
 import model.Praser;
 import model.Model;
 import model.SquareGizmo;
@@ -26,11 +30,13 @@ import model.TriangleGizmo;
 
 
 public  class Board extends JPanel implements Observer {
+	 int x1,x2,y1,y2;
 
 	private static final long serialVersionUID = 1L;
 	protected int width;
 	protected int height;
 	protected Model gm;
+	private AffineTransform transform = new AffineTransform();
 
 	public Board(int w, int h, Model m) {
 		// Observe changes in Model
@@ -50,11 +56,22 @@ public  class Board extends JPanel implements Observer {
 		super.paintComponent(g);
 		
 
+		
+		 x1 = 50;
+			x2 = 250;
+			y1 = 50;
+			y2 = 250;
+		
 		Graphics2D g2 = (Graphics2D) g;
 		g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
 				RenderingHints.VALUE_ANTIALIAS_ON);
 		g2.setRenderingHint(RenderingHints.KEY_INTERPOLATION,
 				RenderingHints.VALUE_INTERPOLATION_BILINEAR);
+		
+		g2.drawLine(x1,y1,x2,y1);
+		g2.drawLine(x1,y1,x1,y2);
+		g2.drawLine(x2,y2,x1,y2);
+		g2.drawLine(x2,y2,x2,y1);
 
 		// Draw all triangles
 		for (TriangleGizmo tr : gm.getTriangle()) {
@@ -84,8 +101,87 @@ public  class Board extends JPanel implements Observer {
 //			triangles(g);
 //		}
 		// Draw left and right flipper
-		for(int i = 0; i < gm.getFlipper().size(); i++){
-			gm.getFlipper().get(i).paint(g);
+		for(Flipper rf : gm.getFlipper()){
+			//gm.getFlipper().get(i).paint(g);
+			if(rf.getOpCode().equals("RightFlipper")){
+			g2.setColor(rf.getColor());
+			
+				System.out.println("trans up rF");
+			
+				rf.rotateFlipper();
+				
+				double x1pos = rf.getX1();
+				double y1pos = rf.getY1();
+				double x2pos = (int)x1pos + 35;
+				double y2pos = (int)y1pos + 25;
+				transform = rf.getTrans();
+				
+				Area shape = new Area(new Rectangle2D.Double(x1pos+35, y1pos+5, 15, 25));
+				Area pivotedCircle = new Area(new Ellipse2D.Double(x2pos, y2pos, 15,15));
+				shape.transform(transform);
+				pivotedCircle.transform(transform);
+				
+				Graphics2D g2d = (Graphics2D)g;
+				g2d.setColor(rf.getColor());
+				g2d.fill(shape);
+				g2d.fill(pivotedCircle);
+				g2d.fillOval((int)x1pos+35,(int) y1pos, 15, 15);
+			}
+			else if(rf.getOpCode().equals("LeftFlipper")){
+				
+				System.out.println("trans up LF");
+				rf.rotateFlipper();
+				
+				double x1pos = rf.getX1();
+				double y1pos =rf.getY1();
+				double x2pos = (int)x1pos;
+		        double y2pos = (int)y1pos + 25;
+				transform = rf.getTrans();
+				
+				 Area shape = new Area(new Rectangle2D.Double(x1pos, y1pos+5, 15, 25));
+		            Area pivotedCircle = new Area(new Ellipse2D.Double(x2pos, y2pos, 15, 15));
+		            shape.transform(transform);
+		            pivotedCircle.transform(transform);
+		            Graphics2D g2d = (Graphics2D)g;
+		            g2d.setColor(rf.getColor());
+		            g2d.fill(shape);
+		            g2d.fill(pivotedCircle);
+		            g2d.fillOval((int)x1pos,(int) y1pos, 15, 15);
+				
+			
+			
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		}
 
 		/*for(int i = 0; i < gm.getLeftFlipper().size(); i++){

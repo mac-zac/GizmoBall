@@ -4,10 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 
+import controller.RunListener;
 import physics.Circle;
 import physics.Geometry;
 import physics.LineSegment;
 import physics.Vect;
+import prototypes.FlipperColissionPrototype;
 /**
  * @author Maciej Zajac GizmoBall 27/02/2015
  */
@@ -73,8 +75,24 @@ public class Model extends Observable {
 			this.setChanged();
 			this.notifyObservers();
 		}
-	}
+	}/*
+	//degrees - flipper rotation in tuc
+	public void degrees() throws InterruptedException{
 
+		if(keyPressed){
+			while(deg < 90){
+				deg += 15;
+				System.out.println("Rotating UP " + opcode);
+			}
+		}
+		else if(!keyPressed){
+			while(deg > 0){
+				deg -= 15;
+				System.out.println("Rotating Down " + opcode);
+			}
+		}
+	}//end degrees
+*/
 
 	public void moveBall() {
 
@@ -119,10 +137,11 @@ public class Model extends Observable {
 			newY = b.getY1() + (yVel * time);
 			b.setX1(newX);
 			b.setY1(newY);
-			xVel = friction(xVel);
-			yVel = friction(yVel) + gravity();
+		//	xVel = friction(xVel);
+		//	yVel = friction(yVel) + gravity();
 			System.out.println("yVel = " + yVel);
 			b.setVelo(new Vect(xVel, yVel));
+			System.out.println("x pos "+b.getX1());
 		}
 		return ball;
 	}
@@ -137,6 +156,46 @@ public class Model extends Observable {
 			double shortestTime = Double.MAX_VALUE;
 			double time = 0.0;
 			double absTime = 0.0;
+			
+			//line
+			int x1,x2,y1,y2;
+			x1 = 50;
+			x2 = 250;
+			y1 = 50;
+			y2 = 250;
+			ArrayList<LineSegment>lines = new ArrayList<LineSegment>();
+			lines.add(new LineSegment(x1,y1,x2,y1));
+			lines.add(new LineSegment(x1,y1,x1,y2));
+			lines.add(new LineSegment(x2,y2,x1,y2));
+			lines.add(new LineSegment(x2,y2,x2,y1));
+			for (LineSegment line : lines) {
+				time = Geometry.timeUntilWallCollision(line, ballCircle, ballVelocity);
+				if (time < shortestTime) {
+					shortestTime = time;
+					newVelo = Geometry.reflectWall(line, balls.get(i).getVelo());
+				}
+			}
+			//flippers
+			
+			for(Flipper f : flippers){
+				ArrayList<LineSegment> fls = f.getLS();
+				for(LineSegment lineSeg : fls){
+					time = Geometry.timeUntilWallCollision(lineSeg, ballCircle, ballVelocity);
+					if (time < shortestTime) {
+						shortestTime = time;
+						newVelo = Geometry.reflectWall(lineSeg, balls.get(i).getVelo());
+					}
+				}
+				ArrayList<Circle> css = f.getCirc();
+				for(Circle cs : css){
+					time = Geometry.timeUntilCircleCollision(cs, ballCircle, ballVelocity);
+					if(time < shortestTime){
+						shortestTime = time;
+						newVelo = Geometry.reflectCircle(cs.getCenter(),balls.get(i).getCircle().getCenter(), balls.get(i).getVelo());
+					}
+				}
+			}
+			
 			
 			
 			//walls
@@ -214,13 +273,21 @@ public class Model extends Observable {
 					absTime = Geometry.timeUntilWallCollision(als, ballCircle, ballVelocity);
 					if (absTime < shortestTime) {
 						shortestTime = absTime;
-						newVelo = Geometry.reflectWall(als, balls.get(i).getVelo(), 1.0);
+						
+						//newVelo = new Vect(0, -50*25);
+						//RunListener.timer.stop();
+						//newVelo = Geometry.reflectWall(als, balls.get(i).getVelo(), 1.0);
 					}	
 					if(absTime<0.05&& assOn){
+						//balls.get(i).setVelo(new Vect(0, 0));
+						RunListener.timer.stop();
+						balls.get(i).setVelo(new Vect(0, balls.get(i).getVelo().y()));
 						balls.get(i).setStopped(true);
-						balls.get(i).setX1(490);
+					balls.get(i).setX1(490);
+					//balls.get(i).setVelo(new Vect(0, -50*25));
 						//25 is L
 						newVelo = new Vect(0, -50*25);
+						
 
 					}
 				}
@@ -270,9 +337,9 @@ public class Model extends Observable {
 			addFlipper(fl);
 			System.out.println("flipper added");
 		}
-		else if(opcode.equals("LRightFlipper")&&id.startsWith("R")){
+		else if(opcode.equals("RightFlipper")&&id.startsWith("R")){
 			idsLF.add(id);
-			Flipper fl = new Flipper(arg1, arg2);
+			Flipper fl = new Flipper(opcode, id, arg1, arg2);
 			fl.setOpCode(opcode);
 			fl.setID(id);
 			addFlipper(fl);

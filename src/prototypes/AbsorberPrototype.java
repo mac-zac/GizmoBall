@@ -4,7 +4,7 @@ import javax.swing.UIManager;
 
 import model.Ball;
 import model.AbsorberGizmo;
-
+import model.CircleGizmo;
 import model.SquareGizmo;
 import model.Model;
 import model.TriangleGizmo;
@@ -29,9 +29,10 @@ public class AbsorberPrototype {
 		model.addBall(new Ball("Ball","B1",20,20,100,100));
 		
 		model.addAbs(new AbsorberGizmo("Absorber","A1",0,480,500,500));
-		model.addTriangle(new TriangleGizmo("Triangle","T3",490,0,25));
-		model.getTriangle().get(0).rotate();
-		model.getTriangle().get(0).rotate();
+		//model.addTriangle(new TriangleGizmo("Triangle","T3",490,0,25));
+		model.addCircle(new CircleGizmo("Circle", "C1", 495, -5));
+		//model.getTriangle().get(0).rotate();
+		//model.getTriangle().get(0).rotate();
 		
 		model.setBallSpeed(300, 100);
 

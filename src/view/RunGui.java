@@ -20,16 +20,16 @@ import controller.RunListener;
 public class RunGui {
 
 	private Model model;
-	private JFrame frame;
+	public static JFrame frame;
 	private ActionListener listener;
+	private KeyListener klist;
 	private Board board;
-	
-
 	public RunGui(Model m) {
 		model = m;
 
 		// RunListener catches all GUI events. In reality might have many listeners.
 		listener = new RunListener(m);
+		klist = new RunListener(m);
 	}
 
 	public void createAndShowGUI() {
@@ -37,10 +37,13 @@ public class RunGui {
 		frame = new JFrame("Gizmoballs");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setFocusable(true);
-		frame.addKeyListener(new RunListener(model));
+		//frame.addKeyListener(new RunListener(model));
+		frame.addKeyListener(klist);
+		frame.setFocusable(false);
 
 		// Board is passed the Model so it can act as Observer
 		board = new Board(500, 500, model);
+		//frame.addKeyListener(new RunListener(model));
 		
 
 		Container cp = frame.getContentPane();
